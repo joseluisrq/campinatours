@@ -1,6 +1,6 @@
 <div class="page-sidebar">
   <div class="main-header-left d-none d-lg-block">
-      <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="assets/images/logoc.png"  width="150px" alt=""></a></div>
+      <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded  mx-auto d-block " src="assets/images/logoc.png"  width="150px" alt=""></a></div>
   </div>
   <div class="sidebar custom-scrollbar">
       <div class="sidebar-user text-center">
