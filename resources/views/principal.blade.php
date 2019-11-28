@@ -52,15 +52,7 @@
                         </form>
                     </li>
                     <li><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><i data-feather="maximize-2"></i></a></li>
-                    <li class="onhover-dropdown"><a class="txt-dark" href="#">
-                        <h6>EN</h6></a>
-                        <ul class="language-dropdown onhover-show-div p-20">
-                            <li><a href="#" data-lng="en"><i class="flag-icon flag-icon-is"></i> English</a></li>
-                            <li><a href="#" data-lng="es"><i class="flag-icon flag-icon-um"></i> Spanish</a></li>
-                            <li><a href="#" data-lng="pt"><i class="flag-icon flag-icon-uy"></i> Portuguese</a></li>
-                            <li><a href="#" data-lng="fr"><i class="flag-icon flag-icon-nz"></i> French</a></li>
-                        </ul>
-                    </li>
+                 
                     <li class="onhover-dropdown"><i data-feather="bell"></i><span class="badge badge-pill badge-primary pull-right notification-badge">3</span><span class="dot"></span>
                         <ul class="notification-dropdown onhover-show-div p-0">
                             <li>Notification <span class="badge badge-pill badge-primary pull-right">3</span></li>
@@ -216,6 +208,9 @@
     </div>
 
 </div>
+
+<!--vue-->
+<script src="js/app.js"></script>
 
 <!-- latest jquery-->
 <script src="assets/js/jquery-3.3.1.min.js"></script>

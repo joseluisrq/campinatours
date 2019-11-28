@@ -37188,6 +37188,1387 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/usuarios/CrearUsuario.vue?vue&type=template&id=1689d5d6&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/usuarios/CrearUsuario.vue?vue&type=template&id=1689d5d6& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("main", [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "page-header" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-6" }, [
+              _c("div", { staticClass: "page-header-left" }, [
+                _c("h3", [
+                  _vm._v("Crear Usuario\n                                "),
+                  _c("small", [_vm._v("Ingrese la información correctamente")])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-6" }, [
+              _c("ol", { staticClass: "breadcrumb pull-right" }, [
+                _c("li", { staticClass: "breadcrumb-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("i", { attrs: { "data-feather": "home" } })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "breadcrumb-item" }, [
+                  _vm._v("Usuario ")
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "breadcrumb-item active" }, [
+                  _vm._v("Crear Usuario ")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-sm-12" }, [
+            _c("div", { staticClass: "card tab2-card" }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c(
+                  "ul",
+                  {
+                    staticClass: "nav nav-tabs tab-coupon",
+                    attrs: { id: "myTab", role: "tablist" }
+                  },
+                  [
+                    _c("li", { staticClass: "nav-item" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "nav-link active show",
+                          attrs: {
+                            id: "account-tab",
+                            "data-toggle": "tab",
+                            href: "#account",
+                            role: "tab",
+                            "aria-controls": "account",
+                            "aria-selected": "true",
+                            "data-original-title": "",
+                            title: ""
+                          }
+                        },
+                        [_vm._v("Cuenta")]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "tab-content", attrs: { id: "myTabContent" } },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "tab-pane fade active show",
+                        attrs: {
+                          id: "account",
+                          role: "tabpanel",
+                          "aria-labelledby": "account-tab"
+                        }
+                      },
+                      [
+                        _c(
+                          "form",
+                          {
+                            staticClass: "needs-validation user-add",
+                            attrs: { novalidate: "" }
+                          },
+                          [
+                            _c("h4", [_vm._v("Detalle de cuenta")]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form-group row" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-xl-3 col-md-4",
+                                  attrs: { for: "validationCustom0" }
+                                },
+                                [_c("span", [_vm._v("*")]), _vm._v(" Nombres")]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control col-xl-8 col-md-7",
+                                attrs: {
+                                  id: "validationCustom0",
+                                  type: "text",
+                                  required: ""
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form-group row" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-xl-3 col-md-4",
+                                  attrs: { for: "validationCustom1" }
+                                },
+                                [
+                                  _c("span", [_vm._v("*")]),
+                                  _vm._v(" Apellidos")
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control col-xl-8 col-md-7",
+                                attrs: {
+                                  id: "validationCustom1",
+                                  type: "text",
+                                  required: ""
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form-group row" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-xl-3 col-md-4",
+                                  attrs: { for: "validationCustom1" }
+                                },
+                                [_vm._v(" Correo")]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control col-xl-8 col-md-7",
+                                attrs: {
+                                  id: "validationCustom1",
+                                  type: "text",
+                                  required: ""
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form-group row" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-xl-3 col-md-4",
+                                  attrs: { for: "validationCustom1" }
+                                },
+                                [_vm._v(" Teléfono")]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control col-xl-8 col-md-7",
+                                attrs: {
+                                  id: "validationCustom1",
+                                  type: "text",
+                                  required: ""
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form-group row" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-xl-3 col-md-4",
+                                  attrs: { for: "validationCustom2" }
+                                },
+                                [_c("span", [_vm._v("*")]), _vm._v(" Rol")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "select",
+                                {
+                                  staticClass:
+                                    "form-control digits col-xl-8 col-sm-7",
+                                  attrs: { id: "exampleFormControlSelect1" }
+                                },
+                                [
+                                  _c("option", [_vm._v("Adminstrador")]),
+                                  _vm._v(" "),
+                                  _c("option", [_vm._v("Vendedor")])
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form-group row" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-xl-3 col-md-4",
+                                  attrs: { for: "validationCustom2" }
+                                },
+                                [_c("span", [_vm._v("*")]), _vm._v(" Usuario")]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control col-xl-8 col-md-7",
+                                attrs: {
+                                  id: "validationCustom2",
+                                  type: "text",
+                                  required: ""
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form-group row" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-xl-3 col-md-4",
+                                  attrs: { for: "validationCustom3" }
+                                },
+                                [
+                                  _c("span", [_vm._v("*")]),
+                                  _vm._v(" Contraseña")
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control col-xl-8 col-md-7",
+                                attrs: {
+                                  id: "validationCustom3",
+                                  type: "password",
+                                  required: ""
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form-group row" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-xl-3 col-md-4",
+                                  attrs: { for: "validationCustom4" }
+                                },
+                                [
+                                  _c("span", [_vm._v("*")]),
+                                  _vm._v(" Confirme Contraseña")
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control col-xl-8 col-md-7",
+                                attrs: {
+                                  id: "validationCustom4",
+                                  type: "password",
+                                  required: ""
+                                }
+                              })
+                            ])
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "pull-right" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-primary",
+                      attrs: { type: "button" }
+                    },
+                    [_vm._v("Guardar")]
+                  )
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/usuarios/ListarUsuarios.vue?vue&type=template&id=8c9e433a&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/usuarios/ListarUsuarios.vue?vue&type=template&id=8c9e433a& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("main", [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "page-header" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-6" }, [
+              _c("div", { staticClass: "page-header-left" }, [
+                _c("h3", [
+                  _vm._v("Crear Usuario\n                                "),
+                  _c("small", [_vm._v("Ingrese la información correctamente")])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-6" }, [
+              _c("ol", { staticClass: "breadcrumb pull-right" }, [
+                _c("li", { staticClass: "breadcrumb-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("i", { attrs: { "data-feather": "home" } })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "breadcrumb-item" }, [
+                  _vm._v("Usuario ")
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "breadcrumb-item active" }, [
+                  _vm._v("Crear Usuario ")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-sm-12" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "card-header" }, [
+                _c("h5", [_vm._v("Product Lists")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "product-list digital-product jsgrid",
+                    staticStyle: {
+                      position: "relative",
+                      height: "auto",
+                      width: "100%"
+                    },
+                    attrs: { id: "basicScenario" }
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "jsgrid-grid-header jsgrid-header-scrollbar"
+                      },
+                      [
+                        _c("table", { staticClass: "jsgrid-table" }, [
+                          _c("tr", { staticClass: "jsgrid-header-row" }, [
+                            _c(
+                              "th",
+                              {
+                                staticClass:
+                                  "jsgrid-header-cell jsgrid-align-right jsgrid-header-sortable",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("Id")]
+                            ),
+                            _c(
+                              "th",
+                              {
+                                staticClass:
+                                  "jsgrid-header-cell jsgrid-align-center jsgrid-header-sortable",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Product")]
+                            ),
+                            _c(
+                              "th",
+                              {
+                                staticClass:
+                                  "jsgrid-header-cell jsgrid-header-sortable",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Product Title")]
+                            ),
+                            _c(
+                              "th",
+                              {
+                                staticClass:
+                                  "jsgrid-header-cell jsgrid-header-sortable",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Entry Type")]
+                            ),
+                            _c(
+                              "th",
+                              {
+                                staticClass:
+                                  "jsgrid-header-cell jsgrid-align-right jsgrid-header-sortable",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Quantity")]
+                            ),
+                            _c(
+                              "th",
+                              {
+                                staticClass:
+                                  "jsgrid-header-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-mode-button jsgrid-insert-mode-button",
+                                  attrs: {
+                                    type: "button",
+                                    title: "Switch to inserting"
+                                  }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c(
+                            "tr",
+                            {
+                              staticClass: "jsgrid-filter-row",
+                              staticStyle: { display: "table-row" }
+                            },
+                            [
+                              _c(
+                                "td",
+                                {
+                                  staticClass: "jsgrid-cell jsgrid-align-right",
+                                  staticStyle: { width: "30px" }
+                                },
+                                [_c("input", { attrs: { type: "number" } })]
+                              ),
+                              _c("td", {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              }),
+                              _c(
+                                "td",
+                                {
+                                  staticClass: "jsgrid-cell",
+                                  staticStyle: { width: "100px" }
+                                },
+                                [_c("input", { attrs: { type: "text" } })]
+                              ),
+                              _c(
+                                "td",
+                                {
+                                  staticClass: "jsgrid-cell",
+                                  staticStyle: { width: "50px" }
+                                },
+                                [_c("input", { attrs: { type: "text" } })]
+                              ),
+                              _c(
+                                "td",
+                                {
+                                  staticClass: "jsgrid-cell jsgrid-align-right",
+                                  staticStyle: { width: "50px" }
+                                },
+                                [_c("input", { attrs: { type: "number" } })]
+                              ),
+                              _c(
+                                "td",
+                                {
+                                  staticClass:
+                                    "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                  staticStyle: { width: "50px" }
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass:
+                                      "jsgrid-button jsgrid-search-button",
+                                    attrs: { type: "button", title: "Search" }
+                                  }),
+                                  _c("input", {
+                                    staticClass:
+                                      "jsgrid-button jsgrid-clear-filter-button",
+                                    attrs: {
+                                      type: "button",
+                                      title: "Clear filter"
+                                    }
+                                  })
+                                ]
+                              )
+                            ]
+                          ),
+                          _c(
+                            "tr",
+                            {
+                              staticClass: "jsgrid-insert-row",
+                              staticStyle: { display: "none" }
+                            },
+                            [
+                              _c(
+                                "td",
+                                {
+                                  staticClass: "jsgrid-cell jsgrid-align-right",
+                                  staticStyle: { width: "30px" }
+                                },
+                                [_c("input", { attrs: { type: "number" } })]
+                              ),
+                              _c(
+                                "td",
+                                {
+                                  staticClass:
+                                    "jsgrid-cell jsgrid-align-center",
+                                  staticStyle: { width: "50px" }
+                                },
+                                [_c("input", { attrs: { type: "file" } })]
+                              ),
+                              _c(
+                                "td",
+                                {
+                                  staticClass: "jsgrid-cell",
+                                  staticStyle: { width: "100px" }
+                                },
+                                [_c("input", { attrs: { type: "text" } })]
+                              ),
+                              _c(
+                                "td",
+                                {
+                                  staticClass: "jsgrid-cell",
+                                  staticStyle: { width: "50px" }
+                                },
+                                [_c("input", { attrs: { type: "text" } })]
+                              ),
+                              _c(
+                                "td",
+                                {
+                                  staticClass: "jsgrid-cell jsgrid-align-right",
+                                  staticStyle: { width: "50px" }
+                                },
+                                [_c("input", { attrs: { type: "number" } })]
+                              ),
+                              _c(
+                                "td",
+                                {
+                                  staticClass:
+                                    "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                  staticStyle: { width: "50px" }
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass:
+                                      "jsgrid-button jsgrid-insert-button",
+                                    attrs: { type: "button", title: "Insert" }
+                                  })
+                                ]
+                              )
+                            ]
+                          )
+                        ])
+                      ]
+                    ),
+                    _c("div", { staticClass: "jsgrid-grid-body" }, [
+                      _c("table", { staticClass: "jsgrid-table" }, [
+                        _c("tbody", [
+                          _c("tr", { staticClass: "jsgrid-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("21")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/web-dev.jpg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Websites")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Add")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("5")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c("tr", { staticClass: "jsgrid-alt-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("172")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/3d-design.jpg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("3D Impact")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Destroy")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("11")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c("tr", { staticClass: "jsgrid-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("124")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/graphic-design.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Graphic Design")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Destroy")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("154")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c("tr", { staticClass: "jsgrid-alt-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("37")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/logo.jpg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Company Logo")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Destroy")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("1")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c("tr", { staticClass: "jsgrid-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("67")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/application.jpg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Application")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Add")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("24")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c("tr", { staticClass: "jsgrid-alt-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("74")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/php.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Php")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Destroy")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("1")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c("tr", { staticClass: "jsgrid-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("427")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/html.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Html")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Destroy")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("27")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c("tr", { staticClass: "jsgrid-alt-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("142")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/css.jpg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Css")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Add")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("2")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ]),
+                          _c("tr", { staticClass: "jsgrid-row" }, [
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "30px" }
+                              },
+                              [_vm._v("58")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("img", {
+                                  staticStyle: {
+                                    height: "50px",
+                                    width: "50px"
+                                  },
+                                  attrs: {
+                                    src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/images/digital-product/ebooks.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+                                  }
+                                })
+                              ]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "100px" }
+                              },
+                              [_vm._v("Ebooks")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("Add")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass: "jsgrid-cell jsgrid-align-right",
+                                staticStyle: { width: "50px" }
+                              },
+                              [_vm._v("4")]
+                            ),
+                            _c(
+                              "td",
+                              {
+                                staticClass:
+                                  "jsgrid-cell jsgrid-control-field jsgrid-align-center",
+                                staticStyle: { width: "50px" }
+                              },
+                              [
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-edit-button",
+                                  attrs: { type: "button", title: "Edit" }
+                                }),
+                                _c("input", {
+                                  staticClass:
+                                    "jsgrid-button jsgrid-delete-button",
+                                  attrs: { type: "button", title: "Delete" }
+                                })
+                              ]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "jsgrid-pager-container",
+                        staticStyle: { display: "none" }
+                      },
+                      [
+                        _c("div", { staticClass: "jsgrid-pager" }, [
+                          _vm._v("Pages: "),
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "jsgrid-pager-nav-button jsgrid-pager-nav-inactive-button"
+                            },
+                            [
+                              _c(
+                                "a",
+                                { attrs: { href: "javascript:void(0);" } },
+                                [_vm._v("First")]
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "jsgrid-pager-nav-button jsgrid-pager-nav-inactive-button"
+                            },
+                            [
+                              _c(
+                                "a",
+                                { attrs: { href: "javascript:void(0);" } },
+                                [_vm._v("Prev")]
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "jsgrid-pager-page jsgrid-pager-current-page"
+                            },
+                            [_vm._v("1")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "jsgrid-pager-nav-button jsgrid-pager-nav-inactive-button"
+                            },
+                            [
+                              _c(
+                                "a",
+                                { attrs: { href: "javascript:void(0);" } },
+                                [_vm._v("Next")]
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "jsgrid-pager-nav-button jsgrid-pager-nav-inactive-button"
+                            },
+                            [
+                              _c(
+                                "a",
+                                { attrs: { href: "javascript:void(0);" } },
+                                [_vm._v("Last")]
+                              )
+                            ]
+                          ),
+                          _vm._v("    1 of 1 ")
+                        ])
+                      ]
+                    ),
+                    _c("div", {
+                      staticClass: "jsgrid-load-shader",
+                      staticStyle: {
+                        display: "none",
+                        position: "absolute",
+                        top: "0px",
+                        right: "0px",
+                        bottom: "0px",
+                        left: "0px",
+                        "z-index": "1000"
+                      }
+                    }),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "jsgrid-load-panel",
+                        staticStyle: {
+                          display: "none",
+                          position: "absolute",
+                          top: "50%",
+                          left: "50%",
+                          "z-index": "1000"
+                        }
+                      },
+                      [_vm._v("Please, wait...")]
+                    )
+                  ]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -49349,7 +50730,10 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]); //usuarios
+
+Vue.component('crearusuario', __webpack_require__(/*! ./components/usuarios/CrearUsuario.vue */ "./resources/js/components/usuarios/CrearUsuario.vue")["default"]);
+Vue.component('listarusuarios', __webpack_require__(/*! ./components/usuarios/ListarUsuarios.vue */ "./resources/js/components/usuarios/ListarUsuarios.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -49357,7 +50741,11 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
  */
 
 var app = new Vue({
-  el: '#app'
+  el: '#app',
+  data: {
+    menu: 11,
+    ruta: 'http://localhost/campinatours/public'
+  }
 });
 
 /***/ }),
@@ -49471,6 +50859,112 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/usuarios/CrearUsuario.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/usuarios/CrearUsuario.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CrearUsuario_vue_vue_type_template_id_1689d5d6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CrearUsuario.vue?vue&type=template&id=1689d5d6& */ "./resources/js/components/usuarios/CrearUsuario.vue?vue&type=template&id=1689d5d6&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _CrearUsuario_vue_vue_type_template_id_1689d5d6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CrearUsuario_vue_vue_type_template_id_1689d5d6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/usuarios/CrearUsuario.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/usuarios/CrearUsuario.vue?vue&type=template&id=1689d5d6&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/usuarios/CrearUsuario.vue?vue&type=template&id=1689d5d6& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CrearUsuario_vue_vue_type_template_id_1689d5d6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CrearUsuario.vue?vue&type=template&id=1689d5d6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/usuarios/CrearUsuario.vue?vue&type=template&id=1689d5d6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CrearUsuario_vue_vue_type_template_id_1689d5d6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CrearUsuario_vue_vue_type_template_id_1689d5d6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/usuarios/ListarUsuarios.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/usuarios/ListarUsuarios.vue ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ListarUsuarios_vue_vue_type_template_id_8c9e433a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ListarUsuarios.vue?vue&type=template&id=8c9e433a& */ "./resources/js/components/usuarios/ListarUsuarios.vue?vue&type=template&id=8c9e433a&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _ListarUsuarios_vue_vue_type_template_id_8c9e433a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ListarUsuarios_vue_vue_type_template_id_8c9e433a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/usuarios/ListarUsuarios.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/usuarios/ListarUsuarios.vue?vue&type=template&id=8c9e433a&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/usuarios/ListarUsuarios.vue?vue&type=template&id=8c9e433a& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ListarUsuarios_vue_vue_type_template_id_8c9e433a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./ListarUsuarios.vue?vue&type=template&id=8c9e433a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/usuarios/ListarUsuarios.vue?vue&type=template&id=8c9e433a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ListarUsuarios_vue_vue_type_template_id_8c9e433a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ListarUsuarios_vue_vue_type_template_id_8c9e433a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

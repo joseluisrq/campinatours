@@ -21,6 +21,10 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
+//usuarios
+Vue.component('crearusuario', require('./components/usuarios/CrearUsuario.vue').default);
+Vue.component('listarusuarios', require('./components/usuarios/ListarUsuarios.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -29,4 +33,9 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    data: {
+        menu: 11,
+        ruta: 'http://localhost/campinatours/public',
+
+    },
 });
