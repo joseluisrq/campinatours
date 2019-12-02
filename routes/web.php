@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('contenido/contenido');
 });
+        Route::get('/listapersonas', 'PersonaController@index');
+        Route::get('/detallepersona', 'PersonaController@detalle');
+        Route::post('/registrarpersona', 'PersonaController@store');
+        Route::put('/actualizarpersona', 'PersonaController@update');
+        Route::delete('/eliminarpersona', 'PersonaController@delete');

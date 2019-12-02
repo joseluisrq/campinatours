@@ -24,6 +24,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/chartist.css">    <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">    <!-- App css-->
     <link rel="stylesheet" type="text/css" href="assets/css/admin.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/datatables.css">
 </head>
 
 <body>
@@ -268,6 +270,9 @@
 
 <!--script admin-->
 <script src="assets/js/admin-script.js"></script>
+<!-- Datatable js-->
+<script src="assets/js/datatables/jquery.dataTables.min.js"></script>
+<script src="assets/js/datatables/custom-basic.js"></script>
 
 </body>
 </html>
